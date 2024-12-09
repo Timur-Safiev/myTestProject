@@ -65,6 +65,7 @@ def catalog(request):
          'price': 25.00},
         ]
     }
+    
     return render(request, 'goods/catalog.html', context)
 
 def product(request):

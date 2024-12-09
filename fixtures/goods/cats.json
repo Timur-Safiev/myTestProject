@@ -1,0 +1,74 @@
+[
+  {
+    "model": "goods.category",
+    "pk": 10,
+    "fields": {
+      "name": "Напитки",
+      "slug": "napitki"
+    }
+  },
+  {
+    "model": "goods.category",
+    "pk": 11,
+    "fields": {
+      "name": "Снеки",
+      "slug": "sneki"
+    }
+  },
+  {
+    "model": "goods.category",
+    "pk": 12,
+    "fields": {
+      "name": "Wok-и",
+      "slug": "wok-i"
+    }
+  },
+  {
+    "model": "goods.category",
+    "pk": 13,
+    "fields": {
+      "name": "Пицца",
+      "slug": "picca"
+    }
+  },
+  {
+    "model": "goods.category",
+    "pk": 14,
+    "fields": {
+      "name": "Поке",
+      "slug": "poke"
+    }
+  },
+  {
+    "model": "goods.category",
+    "pk": 15,
+    "fields": {
+      "name": "Жаренные-Роллы",
+      "slug": "zharennye-rolly"
+    }
+  },
+  {
+    "model": "goods.category",
+    "pk": 16,
+    "fields": {
+      "name": "Запечённые-Роллы",
+      "slug": "zapechyonnye-rolly"
+    }
+  },
+  {
+    "model": "goods.category",
+    "pk": 17,
+    "fields": {
+      "name": "Роллы",
+      "slug": "rolly"
+    }
+  },
+  {
+    "model": "goods.category",
+    "pk": 18,
+    "fields": {
+      "name": "Суши",
+      "slug": "sushi"
+    }
+  }
+]

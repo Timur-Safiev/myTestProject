@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from goods.models import Categories
+from goods.models import Category
 
 def index(request):
 
-    categories = Categories.objects.all()
+    categories = Category.objects.all()
 
     context = {
         'title': 'Суши Осака',
