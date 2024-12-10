@@ -1,6 +1,6 @@
 [
   {
-    "model": "goods.category",
+    "model": "goods.categories",
     "pk": 10,
     "fields": {
       "name": "Напитки",
@@ -8,7 +8,7 @@
     }
   },
   {
-    "model": "goods.category",
+    "model": "goods.categories",
     "pk": 11,
     "fields": {
       "name": "Снеки",
@@ -16,7 +16,7 @@
     }
   },
   {
-    "model": "goods.category",
+    "model": "goods.categories",
     "pk": 12,
     "fields": {
       "name": "Wok-и",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "model": "goods.category",
+    "model": "goods.categories",
     "pk": 13,
     "fields": {
       "name": "Пицца",
@@ -32,7 +32,7 @@
     }
   },
   {
-    "model": "goods.category",
+    "model": "goods.categories",
     "pk": 14,
     "fields": {
       "name": "Поке",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "model": "goods.category",
+    "model": "goods.categories",
     "pk": 15,
     "fields": {
       "name": "Жаренные-Роллы",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "model": "goods.category",
+    "model": "goods.categories",
     "pk": 16,
     "fields": {
       "name": "Запечённые-Роллы",
@@ -56,7 +56,7 @@
     }
   },
   {
-    "model": "goods.category",
+    "model": "goods.categories",
     "pk": 17,
     "fields": {
       "name": "Роллы",
@@ -64,7 +64,7 @@
     }
   },
   {
-    "model": "goods.category",
+    "model": "goods.categories",
     "pk": 18,
     "fields": {
       "name": "Суши",
