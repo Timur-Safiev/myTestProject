@@ -66,8 +66,8 @@
                             </ul>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <form class="d-flex" role="search" action="{% url "catalog:search" %}" method="get">
+                        <input class="form-control me-2" type="search" name="q" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success text-white" type="submit">Поиск</button>
                     </form>
                 </div>
@@ -89,9 +89,12 @@
                     <ul class="dropdown-menu bg-white" data-bs-theme="dark">
                         {% tag_categories as categories %}
                         {% for category in categories %}
-                            <li><a class="dropdown-item text-gray" href="{% url "catalog:index" category.slug %}">{{category.name}}</a></li>
+                            <li class="sidebar-item shadow btn btn-outline-secondary" style="width: 200px; height: 40px; border-color: #ccc;">
+                                <a href="{% url "catalog:index" category.slug %}" class="sidebar-link text-dark text-decoration-none d-block w-100 h-100 d-flex align-items-center justify-content-center">
+                                    {{category.name}}
+                                </a>
+                            </li>
                         {% endfor %}
-                        
                     </ul>
                 </div>
                 <!-- Значек корзины, вызывает модальное окно -->

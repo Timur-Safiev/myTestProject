@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/bg-image.jpg");
+  background-image: url("{% static 'deps/images/bg-image.png' %}");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
