@@ -1,4 +1,4 @@
-{% extends "main/base.html" %}
+{% extends "base.html" %}
 {% load static %}
 
 {% block content %}
@@ -62,7 +62,11 @@
                     <a href="{% url "catalog:product" product.slug %}">
                         <p class="card-title">{{ product.name }}</p>
                     </a>
-                    <p class="card-text text-truncate">{{ product.description }}</p>
+                    <p class="card-text text-truncate">
+                        {% if product.bodyline %} {{ product.bodyline }}
+                        {% else %} {{ product.description }}
+                        {% endif %}
+                    </p>
                     <p class="product_grams">{{ product.grams }}</p>
                     <div class="d-flex justify-content-between">
 
