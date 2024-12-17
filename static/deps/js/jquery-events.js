@@ -6,7 +6,7 @@ $(document).ready(function () {
     if (notification.length > 0) {
         setTimeout(function () {
             notification.alert('close');
-        }, 7000);
+        }, 2500);
     }
 
     // При клике по значку корзины открываем всплывающее(модальное) окно
