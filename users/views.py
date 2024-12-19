@@ -49,6 +49,11 @@ def register(request):
     }
     return render(request, 'users/registration.html', context)
 
+
+def users_cart(request):
+    return render(request, 'users/users_cart.html')
+
+
 @login_required
 def profile(request):
     if request.method == 'POST':
@@ -71,3 +76,4 @@ def logout(request):
     messages.success(request, f"{request.user.username}, Вы успешно вышли из аккаунта")
     auth.logout(request)
     return redirect(reverse('main:index'))
+
